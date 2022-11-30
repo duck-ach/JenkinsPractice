@@ -124,6 +124,7 @@
    
    <!-- 빌드할 때 사용하는 빌드 태그들. -->
     <build>
+    <finalName>${artifactId}</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-eclipse-plugin</artifactId>
